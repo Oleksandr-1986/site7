@@ -30,7 +30,11 @@ $('.blog__column').click(function(e) {
 	$('.blog__column').removeClass('active');
 	$(this).addClass('active');
 });
-//blogChange
+//portfolio
+$('.portfolio__item').click(function(e) {
+	$('.portfolio__item').removeClass('active');
+	$(this).addClass('active');
+});
 
 
 //scrollTo
