@@ -1614,9 +1614,9 @@ header .container {
 .slider__item {
   position: relative;
   text-align: center;
-  -webkit-transition: all 0.3s easy 0s;
-  -o-transition: all 0.3s easy 0s;
-  transition: all 0.3s easy 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .slider__img {

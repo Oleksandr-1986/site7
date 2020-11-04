@@ -47,7 +47,7 @@ $(document).ready(function(){
         // знаходимо висоту на якій розташований блок віднімаємо висоту меню, щоб не перекрива
             top = $(id).offset().top 
         // анімація переходу блоку в мс
-        $('body,html').animate({scrollTop: top},6000);
+        $('body,html').animate({scrollTop: top},1000);
     });
 });
 //таби
@@ -83,7 +83,7 @@ function backToTop(){
 	});
 	button.on('click', (e) => {
 		e.preventDefault();
-		$('html').animate({scrollTop:0}, 6000);
+		$('html').animate({scrollTop:0}, 1000);
 	})
 }
 backToTop();
